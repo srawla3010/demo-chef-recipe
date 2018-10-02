@@ -18,6 +18,6 @@ service "apache2" do
 end
 
 cookbook_file "/var/www/html/index.html" do
-    source "index.html"
+    source "new_index.html"
     mode "0644"
 end
